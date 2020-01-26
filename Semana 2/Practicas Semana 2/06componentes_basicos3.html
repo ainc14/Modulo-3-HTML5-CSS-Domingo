@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas y Tablas</title>
+</head>
+<style>
+.block{
+text-align:center;
+background-color:lightgray;
+}
+em {
+color: #6a6a6a; background-color: #000411;
+}
+.list{
+text-align: right;
+display:inline-block;
+}
+.block1{
+text-align:right;
+background-color: green;
+}
+.list{
+text-align: right;
+display:inline-block;
+}
+.block2{
+text-align:left;
+background-color: blue;
+}
+.block3{
+text-align:right;
+background-color: yellow;
+}
+.block4{
+text-align:right;
+background-color: red;
+}
+</style>
+<body>
+  <!-- https://www.hazunaweb.com/curso-de-html/listas/ -->
+  <!-- Listas No Ordenadas -->
+
+  <div class="block1">
+    <ul  class="list">
+    <li>Dato 1</li>
+    <li>Dato 2</li>
+    <li>Dato 3</li>
+    <li>Dato 4</li>
+  </ul>
+</div>
+  <!-- Listas Ordenadas -->
+  <div class="block">
+  <ol class="list">
+    <li>Dato 1</li>
+    <li>Dato 2</li>
+    <li>Dato 3</li>
+    <li>Dato 4</li>
+  </ol>
+</div>
+
+  <!-- Listas Anidadas -->
+  <div class="block2">
+  <ul class="list">
+    <li>Dato 1</li>
+    <li>Dato 2
+      <ul>
+        <li>Dato Anidado 1</li>
+        <li>Dato Anidado 2</li>
+      </ul>
+    </li>
+    <li>Dato 3</li>
+    <li>Dato 4</li>
+  </ul>
+</div>
+  <!-- Lista de Definiciones  -->
+  <div class="block3">
+  <dl class="list">
+    <dt>Aquí va el término que definiremos</dt>
+    <dd>Y <em>aquí dentro irá la definición </em>propiamente dicha.</dd>
+  </dl>
+  <dl>
+    <dt>Aquí va la segunda definición</dt>
+    <dd>Y aquí dentro irá la segunda definición, separada automáticamente de la anterior.</dd>
+  </dl>
+</div>
+  <!-- Tables -->
+  <div class="block4">
+  <table style="width: 600px" color: red;>
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>jdoe@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Kate</td>
+        <td>Smith</td>
+        <td>kate@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Jeff</td>
+        <td>Wilson</td>
+        <td>jeff@gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
